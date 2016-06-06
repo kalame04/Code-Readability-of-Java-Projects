@@ -1,0 +1,100 @@
+Jmencode v0.64 27/05/07
+-can now do flv encoding (experimental)
+-output path should work correctly this time, you can save anywhere
+-some validation checks added
+
+Jmencode v0.63 25/02/07
+-added path setting for mac os X
+-can now set output path and filename properly
+-can now set fourCC
+
+Jmencode v0.62 7/01/07
+
+-added volume gain option
+-fixed problem of fit cd bitrate being set too high
+-fixed command updating when switching between bitrate calculation
+options (custom and fit size)
+-added more sizes to 'fit size' list and indication of quality for the 
+current bitrate chosen
+
+Jmencode v0.61 6/01/07
+
+-fixed save paths in settings file, should allow paths to be stored in the
+config file in windows and mac os
+-fixed bug in adjusting audio track list when title is loaded
+-did code for preview of current audio track, not yet user 'safe' but works
+-updated code for extracting audio as is or as wav - should work better
+
+Jmencode v0.59 4/01/07
+
+-removed code setlocationbyplatform error that may have caused failure
+to start in linux
+-first try at enforcing mod 16 resizing, mainly works but probably bugs
+this can be switched off in resizing options dialog
+
+Jmencode v0.58 2/01/07
+
+-code for dealing with dvd titles done
+can now read in seperate dvd titles and their audio tracks, 
+so user can view and select the correct title
+
+
+Jmencode v0.54 31/12/06
+
+-fixed code to display the crop rectangle properly in the preview panel
+now when crop is detected or crop values change, the rect is resized
+-fixed error that caused command line for mp4box to be set up incorrectly
+in non-windows system (ie. linux)
+-fixed muxing commands so that chapters are not included unless a file 
+is chosen
+-basic mkv muxing works, raw files have to be put to mp4 first
+-more work on code for dealing with multiple dvd titles, not working yet 
+
+Jmencode v0.52 28/12/06
+
+-added option 'fit to cd', by calculation of bitrate
+-created code for dealing with multiple dvd titles, not working yet
+-corrected mp3/aac selection mechanism
+-fixed Look and feel changes (now affects all frames)
+-fixed time display in video info panel, was uinsg wrong units
+-added more detail to progress info, to indicate first or second pass
+-fixed graphical crop selection, use when cropdetect fails
+-fixed high values in auto scaling when opening new file
+-bitrate calculator button disabled, as this is not yet available
+-enables 'play again' button for preview clip
+
+Jmencode v0.5 27/12/06
+
+-simplified preview interface to make it more intuitive
+-auto detects DAR and aspect ratio
+-added video summary panel
+
+Jmencode v0.4 15/12/06
+
+-made further corrections to visual preview code
+-added input DAR selection
+-can try auto calculation of aspect ratio (still buggy)
+-adjusted 'file input' code so that filenames are saved correctly
+-can now save path settings and load them from the cfg file 
+
+Jmencode v0.35 11/12/06
+
+-fixed up preview interface
+-made more corrections to encode command creation
+-can set source aspect ratio for rescale
+-preview clip works
+
+Jmencode v0.3 8/12/06
+
+-added visual preview interface for crop and resize
+
+Jmencode v0.2 	5/12/06
+
+-setup framework for settings config file, not completed yet
+-added setup form for changing default settings
+-added mp4 muxing ability
+-now can choose between container types and get proper command output
+-can now extract audio as copy or pcm wav
+-started bitrate calculator gui
+
+

@@ -1,0 +1,18 @@
+Path  	        File Name
+src\jmencode	BitrateCalcForm.java
+src\jmencode	ExecProgram.java
+src\jmencode	ImgPreviewPanel.java
+src\jmencode	LNFSetter.java
+src\jmencode	LogPanel.java
+src\jmencode	MainGUI.java
+src\jmencode	MplayerController.java
+src\jmencode	MplayerParser.java
+src\jmencode	MuxerForm.java
+src\jmencode	PreviewSetupForm.java
+src\jmencode	RescaleOptionsForm.java
+src\jmencode	Settings.java
+src\jmencode	SettingsForm.java
+src\jmencode	SplashWindow.java
+src\jmencode	SwingWorker.java
+src\jmencode	VideoInfoForm.java
+src\jmencode	VideoTitle.java

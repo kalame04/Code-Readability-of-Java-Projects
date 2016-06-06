@@ -1,0 +1,12 @@
+Jmencode TO DO:
+
+-Create help info/manual
+-Complete muxing command interface
+-Complete audio commands interface/setup
+-Create queuing system for multiple sources
+-finish settings dialog
+-allow muxing seperately from main panel
+-fix encoding parameters default values
+-allow preset encoder profiles to be selected
+-do bitrate calculator
+
